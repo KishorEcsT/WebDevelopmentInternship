@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price | Burger Quest</title>
+    <link rel="stylesheet" href="./price.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script type="text/javascript" src="script.js">  </script>
+
+
+</head>
+<body>
+
+    <ul class="nav nav-underline">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="pricing.html">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./bootstrapprojectt.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./aboutus.html">About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact</a>
+        </li>
+      </ul>
+
+      <div> 
+        <h2>==========Price list==========</h2> 
+        <table width="40%" id="alignment" > 
+            <tr>  
+            <th>Food Item</th> 
+            <th></th>
+            <th>Price(Rs.)</th>
+            </tr> 
+            <tr>
+            <td>Chicken Burger</td> 
+            <td> - </td>
+            <td>700.00</td> 
+            </tr> 
+            <tr>
+            <td>Veg Burger</td>
+            <td> - </td> 
+            <td>500.00</td> 
+            </tr>
+            <tr> 
+            <td>Chicken Double Patty</td>
+            <td> - </td>  
+            <td>300.00</td>
+            </tr> 
+            <tr>  
+            <td>Shakes </td>
+            <td> - </td> 
+            <td>200.00</td> 
+            </tr>  
+            <tr>
+            <td>Water Bottle</td>
+            <td> - </td> 
+            <td>70.00</td>
+            </tr>
+            </table>
+
+            <h>FIT Food - Order Form</h1>
+                <table style="background-color:aquamarine;margin-left: 100px;">  <tr>
+                <td>Branch : </td>
+                <td> 
+                <select> 
+                <option>--Select Item--</option>
+                <option>Coimbatore</option>
+                <option>Chennai</option> 
+                </select>
+                </td> 
+                </tr>
+                <tr>
+                <td>User name:</td>
+                <td>
+                <input type="text" >
+                </td>
+                </tr>
+                <tr><td>Mobile: </td>
+                <td><input type="text" id="mblenmb" onfocusout="checkmob()"></td></tr> 
+                </table>
+                <br>
+
+                <form name="tblform" >
+                    <table width="80%"  id="alignment" >
+                    <tr>
+                    <th>Food Item</th>
+                    <th> </th>
+                    <th>Quantity</th>
+                    <th>Price</th> 
+                    </tr>
+                    <tr> 
+                    <td>Item 1:</td> 
+                    <td>
+                    <select id="item1">
+                    <option value="1">--Select Item--</option> 
+                    <option value="1">--Select Item--</option> 
+                    <option value="Chicken pizza">Chicken Burger</option>   
+                    <option value="Vegetable Pizza">Veg Burger</option> 
+                    <option value="Chicken Kottu">Chicken Double Patty</option> 
+                    <option value="Vegetable Kottu"> Shakes</option> 
+                    <option value="Water Bottle ">Water Bottle </option> 
+                    </select>
+                    </td> 
+                    <td><input type="number" value="0" id="q1"></td>
+                    <td><input type="text" id="p1"></td>
+                    </tr>   
+                    <tr>
+                    <td>Item 2:</td>
+                    <td>
+                    <select id="item2"> 
+                    <option value="1">--Select Item--</option> 
+                    <option value="1">--Select Item--</option> 
+                    <option value="Chicken pizza">Chicken Burger</option>   
+                    <option value="Vegetable Pizza">Veg Burger</option> 
+                    <option value="Chicken Kottu">Chicken Double Patty</option> 
+                    <option value="Vegetable Kottu"> Shakes</option> 
+                    <option value="Water Bottle ">Water Bottle </option> 
+                    </select>
+                    </td>
+                    <td><input  type="number" value="0" id="q2"></td>  
+                    <td><input type="text"  id="p2"></td>  
+                    </tr> 
+                    <tr>
+                    <td>Item 3:</td>
+                    <td><select id="item3">  
+                    <option value="1">--Select Item--</option> 
+                    <option value="1">--Select Item--</option> 
+                    <option value="Chicken pizza">Chicken Burger</option>   
+                    <option value="Vegetable Pizza">Veg Burger</option> 
+                    <option value="Chicken Kottu">Chicken Double Patty</option> 
+                    <option value="Vegetable Kottu"> Shakes</option> 
+                    <option value="Water Bottle ">Water Bottle </option> 
+                    </select>
+                    </td>
+                    <td><input type="number" value="0" id="q3"></td>
+                    <td><input type="text"  id="p3"></td> 
+                    </tr> 
+                    <tr>
+                    <td>Item 4:</td>
+                    <td><select id="item4">   
+                    <option value="1">--Select Item--</option> 
+                    <option value="Chicken pizza">Chicken Burger</option>   
+                    <option value="Vegetable Pizza">Veg Burger</option> 
+                    <option value="Chicken Kottu">Chicken Double Patty</option> 
+                    <option value="Vegetable Kottu"> Shakes</option> 
+                    <option value="Water Bottle ">Water Bottle </option>   
+                    </select>
+                    </td>
+                    <td><input type="number" value="0" id="q4"></td>
+                    <td><input type="text"  id="p4"></td> 
+                    </tr>    
+                    <tr>
+                    <td></td> 
+                    <td></td> 
+                    <td><input type="submit" class="button" value="Create Bill" onclick=createBill()></td>
+                    <td><input type="reset" class="button" value="Clear"></td>
+                    </tr>
+                    </table>
+                    </form>
+
+                    </h>
+                    </div>
+
+      <script src="https://cdn.jsdelivr.net/pm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+</body>
+</html>
