@@ -1,0 +1,18 @@
+.red-circle {
+    background-color: rgb(78, 213, 161);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 150px;
+    left: 250px;
+}
+
+.blue-box {
+    background-color: rgb(187, 255, 0);
+    height: 300px;
+    width: 500px;
+    position: relative;
+    top: 200px;
+    left: 200px;
+}

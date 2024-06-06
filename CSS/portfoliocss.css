@@ -1,0 +1,132 @@
+.container-main{
+    position: relative;
+    background-color: #e4f9f5;;
+    padding-top: 110px;
+
+    background: linear-gradient(300deg, #90f6d7, #35bcbf,#41506b,#263849);
+    background-size: 180% 180%;
+    animation: gradient-animation 8s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.cloudtop{
+    position: absolute;
+    top: 20px;
+    left: 450px;
+    width: 200px;
+    height: 75px;
+}
+
+div{
+    display: block;
+}
+
+body{
+    margin: 0;
+    text-align: center;
+}
+
+.bottomcloud{
+    position: absolute;
+    bottom: 80px;
+    right: 400px;
+    width: 200px;
+    height: 75px;
+}
+
+h1{
+    color: #66bfbf;
+    font-family: "Sacramento", cursive;
+    font-size: 70px;
+    margin: 0px 30px 0px 30px;
+}
+ 
+h2{
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 15px;
+    font-size: 2.5rem;
+}
+
+.mainimg1{
+    width: 560px;
+    height: 605px;
+}
+
+.programmer{
+    text-decoration: underline;
+}
+.container-edu{
+    margin: 100px;
+}
+.kishorimg{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+}
+
+hr{
+    border: dotted #66bfbf 6px;
+    width: 4%;
+    border-bottom: none;
+    margin: 100px auto;
+}
+
+.intro{
+    margin: auto;
+    width: 30%;
+    font-size: 1.5rem;
+}
+
+p{
+    line-height: 2;
+}
+
+.parent{
+    display: grid;
+    text-align: left;
+    margin: 100px auto 0 auto;
+    row-gap: 50px;
+    grid-template-columns: 1fr 0.5fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 35%;
+    column-gap: 40px;
+}
+
+.devloperimg{
+    height: 250px;
+    width: 300px;
+    border-radius: 15%;
+}
+
+.coder{
+    font-size: larger;
+    padding-right: 40px;
+}
+
+.gaminggg{
+    height: 250px;
+    width: 300px;
+    border-radius: 15%;
+}
+
+.game{
+    font-size: larger;
+    padding-right: 20px;
+}
+
+.alignh2{
+    margin: 0;
+}
+

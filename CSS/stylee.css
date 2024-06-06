@@ -1,0 +1,37 @@
+html{
+    background-color: azure;
+}
+
+ol{
+    margin-left: -20px;
+    margin-top: 10pt;
+    list-style-position: inside;
+}
+
+p{
+    color: cadetblue;
+}
+
+.classselector[value = "1"]{
+    color: red;
+}
+
+#zr02{
+    color: aqua;
+}
+
+.classselector[value = "3"]{
+    color: skyblue;
+}
+
+.classselector[value = "4"]{
+    color: blueviolet;
+}
+
+.classselector[value = "5"]{
+    color: gold;
+}
+
+*{
+    text-align: center;
+}
